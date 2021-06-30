@@ -1,4 +1,4 @@
-# Wisconsin Breast Cancer Data Logistic Regression Analysis
+# Wisconsin BreastCancer Data Logistic Regression Analysis
 
 ## 1. Load Data
 
@@ -206,7 +206,7 @@ myglm=function(Data,lr,epoch,no.variable,no.y){ #no.variable is the vector of th
 }
 ```
 
-### 4. Check with Breat Cancer Data
+### 4. Check with BreastCancer Data
 
 
 ```R
@@ -239,7 +239,7 @@ BCweight=myglm(BreastCancer,0.01,5000,2:10,11)
     Mitoses          0.01143986
     
 
-### 5. Predict with New Data
+### 5. Predict with NewData
 
 
 ```R
