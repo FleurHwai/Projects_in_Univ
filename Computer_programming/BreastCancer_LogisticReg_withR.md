@@ -111,7 +111,7 @@ BreastCancer[is.na(BreastCancer[,7]),7]=median(BreastCancer[,7],na.rm=T)
 #BreastCancer[is.na(BreastCancer[,7]),7]=mean(BreastCancer[,7],na.rm=T)
 ```
 
-### 3. Logistic Regression Function
+### 3. Making Logistic Regression Function
 
 
 ```R
